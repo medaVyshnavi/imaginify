@@ -56,3 +56,5 @@ clerk's webhooks will ping our application upon specific events.
 4. click on create and copy the signing secret and it to the env file
 5. install svix to verify the webhook signature. mainly to authenticate the webhooks
 6. create an endpoint is the application
+
+** Clerk lets our application know that a new user is registered inorder to add it in the database.
