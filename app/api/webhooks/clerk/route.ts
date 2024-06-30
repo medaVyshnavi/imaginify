@@ -75,6 +75,7 @@ export async function POST(req: Request) {
 
     // Set public metadata
     if (newUser) {
+      // @ts-ignore
       await clerkClient.useUser.updateUserMetadata(id, {
         publicMetadata: {
           userId: newUser._id,
